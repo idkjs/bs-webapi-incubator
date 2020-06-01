@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
+    "start": "BS_WATCH_CLEAR=true bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "bsb -make-world"
   },
@@ -27,6 +27,6 @@
   "author": "chenglou",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^5.0.2"
+    "bs-platform": "^8.0.0-dev.1"
   }
 }
